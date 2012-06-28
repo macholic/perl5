@@ -1,0 +1,58 @@
+{
+   "abstract" : "Replace functions with ones that succeed or die with lexical scope",
+   "author" : [
+      "Copyright 2008-2009, Paul Fenwick <pjf@perltraining.com.au>",
+      "Paul Fenwick <pjf@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.04, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "autodie",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.62",
+            "Test::More" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.62"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "IPC::System::Simple" : "0.12"
+         },
+         "requires" : {
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=autodie"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://github.com/pfenwick/autodie/tree/master"
+      },
+      "x_Blog" : "http://pjf.id.au/blog/toc.html?tag=autodie"
+   },
+   "version" : "2.11"
+}

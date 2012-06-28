@@ -1,0 +1,53 @@
+{
+   "abstract" : "Provide an interface to ZIP archive files.",
+   "author" : [
+      "Ned Konz <perl@bike-nomad.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.50, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Archive-Zip",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Compress::Raw::Zlib" : "2.017",
+            "File::Basename" : 0,
+            "File::Copy" : 0,
+            "File::Find" : 0,
+            "File::Path" : 0,
+            "File::Spec" : "0.80",
+            "File::Temp" : 0,
+            "IO::File" : 0,
+            "IO::Handle" : 0,
+            "IO::Seekable" : 0,
+            "Test::More" : "0.42",
+            "Time::Local" : 0,
+            "perl" : "5.00396"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "1.30"
+}

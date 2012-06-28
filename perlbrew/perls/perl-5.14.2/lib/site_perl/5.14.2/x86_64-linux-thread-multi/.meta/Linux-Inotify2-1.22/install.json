@@ -1,0 +1,1 @@
+{"provides":{"Linux::Inotify2::Watch":{"file":"Linux/Inotify2.pm"},"Linux::Inotify2":{"version":"1.22","file":"Linux/Inotify2.pm"},"Linux::Inotify2::Event":{"file":"Linux/Inotify2.pm"}},"target":"Linux::Inotify2","version":"1.22","name":"Linux::Inotify2","dist":"Linux-Inotify2-1.22","pathname":"M/ML/MLEHMANN/Linux-Inotify2-1.22.tar.gz"}

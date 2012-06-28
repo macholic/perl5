@@ -1,0 +1,62 @@
+{
+   "abstract" : "very simple DBI wrapper/ORMapper",
+   "author" : [
+      "Atsushi Kobayashi  C<< <nekokak __at__ gmail.com> >>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.02, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Teng",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.42",
+            "Test::More" : "0.96",
+            "Test::Requires" : "0",
+            "Test::SharedFork" : "0.15"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Class::Accessor::Lite" : "0.05",
+            "Class::Load" : "0.06",
+            "DBI" : "0",
+            "DBIx::Inspector" : "0.03",
+            "DBIx::TransactionManager" : "1.06",
+            "Data::Page" : "0",
+            "Data::Page::NoTotalEntries" : "0.02",
+            "SQL::Maker" : "0.14",
+            "parent" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/nekokak/p5-Teng.git"
+      }
+   },
+   "version" : "0.14"
+}

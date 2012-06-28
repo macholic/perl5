@@ -1,0 +1,1 @@
+{"provides":{"Amon2::Setup::Flavor::TengWithoutLoader":{"file":"Amon2/Setup/Flavor/TengWithoutLoader.pm"},"Amon2::Setup::Flavor::Teng":{"version":"0.03","file":"Amon2/Setup/Flavor/Teng.pm"}},"target":"Amon2::Setup::Flavor::Teng","version":"0.03","name":"Amon2::Setup::Flavor::Teng","dist":"Amon2-Setup-Flavor-Teng-0.03","pathname":"S/SH/SHIBUYA/Amon2-Setup-Flavor-Teng-0.03.tar.gz"}

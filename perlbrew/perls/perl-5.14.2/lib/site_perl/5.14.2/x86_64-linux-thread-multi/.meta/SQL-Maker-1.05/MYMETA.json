@@ -1,0 +1,87 @@
+{
+   "abstract" : "Yet another SQL builder",
+   "author" : [
+      "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "SQL-Maker",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98",
+            "Test::Requires" : "0",
+            "Tie::IxHash" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor::Lite" : "0.05",
+            "DBI" : "0",
+            "Module::Load" : "0",
+            "parent" : "0",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "SQL::Maker" : {
+         "file" : "lib/SQL/Maker.pm",
+         "version" : "1.05"
+      },
+      "SQL::Maker::Condition" : {
+         "file" : "lib/SQL/Maker/Condition.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::Plugin::InsertMulti" : {
+         "file" : "lib/SQL/Maker/Plugin/InsertMulti.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::SQLType" : {
+         "file" : "lib/SQL/Maker/SQLType.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::Select" : {
+         "file" : "lib/SQL/Maker/Select.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::Select::Oracle" : {
+         "file" : "lib/SQL/Maker/Select/Oracle.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::SelectSet" : {
+         "file" : "lib/SQL/Maker/SelectSet.pm",
+         "version" : "0"
+      },
+      "SQL::Maker::Util" : {
+         "file" : "lib/SQL/Maker/Util.pm",
+         "version" : "0"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "1.05"
+}

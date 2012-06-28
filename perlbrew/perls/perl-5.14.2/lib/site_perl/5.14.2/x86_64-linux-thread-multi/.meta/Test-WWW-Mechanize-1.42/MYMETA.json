@@ -1,0 +1,63 @@
+{
+   "abstract" : "Testing-specific WWW::Mechanize subclass",
+   "author" : [
+      "Andy Lester <andy@petdance.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120530, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Test-WWW-Mechanize",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp::Assert::More" : "0",
+            "HTML::TreeBuilder" : "0",
+            "HTTP::Server::Simple" : "0.42",
+            "HTTP::Server::Simple::CGI" : "0",
+            "LWP" : "6.02",
+            "Test::Builder::Tester" : "1.09",
+            "Test::LongString" : "0.15",
+            "Test::More" : "0.96",
+            "URI::file" : "0",
+            "WWW::Mechanize" : "1.68",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://code.google.com/p/www-mechanize/issues/list"
+      },
+      "homepage" : "https://github.com/petdance/test-www-mechanize",
+      "license" : [
+         "http://www.opensource.org/licenses/artistic-license-2.0"
+      ],
+      "repository" : {
+         "url" : "https://github.com/petdance/test-www-mechanize"
+      }
+   },
+   "version" : "1.42"
+}

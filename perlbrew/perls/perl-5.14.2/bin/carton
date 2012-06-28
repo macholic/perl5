@@ -1,0 +1,9 @@
+#!/home/macholic/perl5/perlbrew/perls/perl-5.14.2/bin/perl
+
+eval 'exec /home/macholic/perl5/perlbrew/perls/perl-5.14.2/bin/perl  -S $0 ${1+"$@"}'
+    if 0; # not running under some shell
+use strict;
+use 5.008001;
+use Carton::CLI;
+
+Carton::CLI->new->run(@ARGV);

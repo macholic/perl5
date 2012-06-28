@@ -1,0 +1,15 @@
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Base.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Unix.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/VMS.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/BCC.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/GCC.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/Windows/MSVC.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/aix.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/cygwin.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/darwin.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/dec_osf.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/ExtUtils/CBuilder/Platform/os2.pm
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/man/man3/ExtUtils::CBuilder.3
+/home/macholic/perl5/perlbrew/perls/perl-5.14.2/man/man3/ExtUtils::CBuilder::Platform::Windows.3

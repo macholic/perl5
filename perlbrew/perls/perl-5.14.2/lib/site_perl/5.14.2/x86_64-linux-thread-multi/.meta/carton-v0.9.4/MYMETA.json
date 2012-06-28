@@ -1,0 +1,100 @@
+{
+   "abstract" : "unknown",
+   "author" : [
+      "Tatsuhiko Miyagawa"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "carton",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.59",
+            "Test::More" : "0.88",
+            "Test::Requires" : 0,
+            "version" : "0.77"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.59",
+            "version" : "0.77"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::cpanminus" : "1.5",
+            "CPAN::Meta" : "2.112",
+            "Capture::Tiny" : 0,
+            "Dist::Metadata" : 0,
+            "Exception::Class" : "1.32",
+            "ExtUtils::MakeMaker" : "6.59",
+            "File::chdir" : 0,
+            "Getopt::Long" : "2.36",
+            "IO::Compress::Gzip" : 0,
+            "JSON" : "2.53",
+            "Module::Build" : "0.38",
+            "Module::Metadata" : "1.000003",
+            "Term::ANSIColor" : "1.12",
+            "Try::Tiny" : "0.09",
+            "local::lib" : "1.008",
+            "parent" : "0.223",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "Carton" : {
+         "file" : "lib/Carton.pm",
+         "version" : "v0.9.4"
+      },
+      "Carton::CLI" : {
+         "file" : "lib/Carton/CLI.pm",
+         "version" : 0
+      },
+      "Carton::Error" : {
+         "file" : "lib/Carton/Error.pm",
+         "version" : 0
+      },
+      "Carton::Tree" : {
+         "file" : "lib/Carton/Tree.pm",
+         "version" : 0
+      },
+      "Carton::TreeNode" : {
+         "file" : "lib/Carton/Tree.pm",
+         "version" : 0
+      },
+      "Carton::Util" : {
+         "file" : "lib/Carton/Util.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/carton/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/carton",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/miyagawa/carton.git"
+      }
+   },
+   "version" : "v0.9.4"
+}
