@@ -1,0 +1,1 @@
+{"provides":{"YAML::Loader::Syck":{"file":"YAML/Loader/Syck.pm"},"YAML::Syck":{"version":"1.20","file":"YAML/Syck.pm"},"JSON::Syck":{"version":"0.43","file":"JSON/Syck.pm"},"YAML::Dumper::Syck":{"file":"YAML/Dumper/Syck.pm"}},"target":"JSON::Syck","version":"1.20","name":"YAML::Syck","dist":"YAML-Syck-1.20","pathname":"T/TO/TODDR/YAML-Syck-1.20.tar.gz"}

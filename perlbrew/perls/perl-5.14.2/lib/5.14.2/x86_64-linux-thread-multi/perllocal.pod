@@ -4574,3 +4574,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Jun 30 15:21:33 2012: C<Module> L<YAML::Syck|YAML::Syck>
+
+=over 4
+
+=item *
+
+C<installed into: /home/macholic/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
